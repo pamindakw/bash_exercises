@@ -1,7 +1,6 @@
 #!/bin/bash
+x=100
+y=90
+echo "$x"+"$y"
 
-echo -n "Enter your first name: "
-read -r x
-echo -n "$x"
-# exit 0 no more execution after compile 
-
+echo "$((x+y))"
